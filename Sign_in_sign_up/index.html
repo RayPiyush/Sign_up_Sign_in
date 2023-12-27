@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_in_sign_up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ac0cf937aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sign-up">
+        <h1 id="title">Sign Up</h1>
+        <form action="abc.html">
+            <div class="input-group">
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="email" id="emailId" placeholder="Email-Id">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" placeholder="password">
+                </div>
+                <div class="input-field" id="confirmpassworddiv">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="confirmpassword" placeholder="confirm password">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="number" id="contact" placeholder="contact number">
+                </div>
+                <p>Forget Password <a href="">Click here!</a></p>
+            </div>
+            <div class="btn-field">
+                <button onclick="change() ; data_signup()" type="button" id="signupbtn">Sign Up</button>
+                <button onclick="change() ; data_signin()" type="button" id="signinbtn" class="disable">Sign In</button>
+            </div>
+            <!-- Email-Id:            <input type="text" id="emailId" placeholder="Email-Id">
+            Password:            <input type="password" id="password" placeholder="password">
+            Confirm password:    <input type="password" id="confirmpassword" placeholder="password">
+            Contact number:      <input type="number" id="contact" placeholder="contact number"> <br></br>  -->
+            <!-- <input type="submit"value="Submit">        -->
+        </form>
+        <!-- <button>Submit</button> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
